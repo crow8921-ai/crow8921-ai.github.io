@@ -1,15 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Blog</title>
+  <meta charset="UTF-8">
+  <title>Blog Sobre Feminismo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #38bdf8;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .post {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+      margin-bottom: 30px;
+    }
+
+    .post h2 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    .post p {
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>Mi Blog</h1>
-<p>Este es mi primer post 😎</p>
+<header>
+  ✨ Blog Sobre Feminismo ✨
+</header>
 
-<!-- Comentarios -->
-<div id="disqus_thread"></div>
+<div class="container">
+
+  <div class="post">
+    <h2>Mi primer post 😎</h2>
+    <p>
+      Este es mi blog escolar donde hablo sobre el feminismo, su importancia en la sociedad
+      y cómo contribuye a la igualdad de derechos entre hombres y mujeres.
+    </p>
+
+    <p>
+      El feminismo busca eliminar la desigualdad de género y promover una sociedad más justa
+      para todas las personas.
+    </p>
+
+    <div class="tag">#Igualdad</div>
+  </div>
+
+  <!-- COMENTARIOS -->
+  <div id="disqus_thread"></div>
+
+</div>
+
+<footer>
+  Hecho por Danny 🚀
+</footer>
+
 <script>
 var disqus_config = function () {
 this.page.url = window.location.href;
@@ -18,7 +105,7 @@ this.page.identifier = "post1";
 
 (function() {
 var d = document, s = d.createElement('script');
-s.src = 'https://blogfeminismo.disqus.com/embed.js';
+s.src = 'https://blogfeminismo.disqus.com/embed.js'; // TU SHORTNAME
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
