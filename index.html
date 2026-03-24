@@ -114,6 +114,24 @@
 
     ul { padding-left: 20px; }
     li { margin-bottom: 8px; }
+
+    /* =========================================
+       NUEVOS ESTILOS PARA LA IMAGEN (AÑADIDO)
+       ========================================= */
+    .image-post-container {
+      width: 100%;
+      display: flex;
+      justify-content: center; /* Centrar horizontalmente */
+      align-items: center;    /* Centrar verticalmente si aplica */
+      margin-top: 20px;
+    }
+
+    .image-post-container img {
+      max-width: 100%; /* No desborda el ancho del blog */
+      height: auto;    /* Mantiene proporción */
+      border-radius: 8px; /* Bordes suaves */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra suave */
+    }
   </style>
 </head>
 
@@ -176,7 +194,7 @@
     <div class="timeline-item">
       <span class="year">1990 – 2010</span>
       <h3>🌐 Tercera Ola: Diversidad</h3>
-      <p>Se enfoca en la interseccionalidad, la inclusión de diferentes razas, culturas e identidades.</p>
+      <p>Se enfoca en la interseccionalidad, la inclusión de diferentes rasas, culturas e identidades.</p>
     </div>
 
     <div class="timeline-item">
@@ -184,6 +202,15 @@
       <h3>📱 Cuarta Ola: Era Digital</h3>
       <p>Uso de redes sociales contra la violencia de género, acoso y feminicidios.</p>
       <p><span class="highlight-blue">Movimiento clave:</span> #MeToo.</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <h2>📊 Contexto Local: Estado de México</h2>
+    <p>A continuación, se presenta una tabla comparativa que analiza la situación actual del Estado de México en áreas clave:</p>
+    
+    <div class="image-post-container">
+      <img src="tabla-de-genero.jpeg" alt="Tabla comparativa de fortalezas y debilidades del Estado de México">
     </div>
   </div>
 
