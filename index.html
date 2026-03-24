@@ -2,66 +2,118 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Blog Sobre Feminismo</title>
+  <title>Blog Sobre Feminismo | Historia y Evolución</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #0f172a;
       color: #e2e8f0;
+      line-height: 1.6;
     }
 
     header {
       background: #1e293b;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
       font-size: 28px;
       font-weight: bold;
       color: #38bdf8;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      border-bottom: 3px solid #7c3aed; /* Un toque morado feminista */
     }
 
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: 40px auto;
-      padding: 20px;
+      padding: 0 20px;
     }
 
     .post {
       background: #1e293b;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
-      margin-bottom: 30px;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      margin-bottom: 40px;
     }
 
-    .post h2 {
-      margin-top: 0;
+    h2 {
       color: #38bdf8;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 10px;
+      margin-top: 30px;
     }
 
-    .post p {
-      line-height: 1.6;
-    }
-
-    footer {
-      text-align: center;
+    .intro-box {
+      background: #334155;
       padding: 20px;
-      color: #94a3b8;
-      font-size: 14px;
+      border-left: 5px solid #7c3aed;
+      border-radius: 8px;
+      margin: 20px 0;
     }
+
+    /* Estilos para la Línea del Tiempo */
+    .timeline-item {
+      background: #0f172a;
+      border: 1px solid #334155;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      transition: transform 0.2s;
+    }
+
+    .timeline-item:hover {
+      transform: scale(1.01);
+      border-color: #7c3aed;
+    }
+
+    .year {
+      display: inline-block;
+      background: #7c3aed;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .highlight-blue { color: #38bdf8; font-weight: bold; }
+    .highlight-purple { color: #c084fc; font-weight: bold; }
 
     .tag {
       display: inline-block;
       background: #38bdf8;
       color: #0f172a;
-      padding: 5px 10px;
+      padding: 5px 12px;
       border-radius: 6px;
-      font-size: 12px;
-      margin-top: 10px;
+      font-size: 13px;
+      margin-top: 15px;
+      font-weight: bold;
     }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .grid-container { grid-template-columns: 1fr; }
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #94a3b8;
+      font-size: 14px;
+      border-top: 1px solid #334155;
+    }
+
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
   </style>
 </head>
 
@@ -76,25 +128,106 @@
   <div class="post">
     <h2>Mi primer post 😎</h2>
     <p>
-      Este es mi blog escolar donde hablo sobre el feminismo, su importancia en la sociedad
-      y cómo contribuye a la igualdad de derechos entre hombres y mujeres.
+      Este es mi blog escolar donde hablo sobre el feminismo, su importancia en la sociedad 
+      y cómo contribuye a la igualdad de derechos entre hombres y mujeres. El feminismo busca 
+      eliminar la desigualdad de género y promover una sociedad más justa para todas las personas.
     </p>
 
-    <p>
-      El feminismo busca eliminar la desigualdad de género y promover una sociedad más justa
-      para todas las personas.
-    </p>
+    <div class="intro-box">
+      <h3>📍 ¿Por qué empezó?</h3>
+      <p>El feminismo surge porque las mujeres no tenían derechos básicos: no podían votar, estudiar o trabajar libremente, y existía una profunda desigualdad legal y social.</p>
+    </div>
 
     <div class="tag">#Igualdad</div>
   </div>
 
-  <!-- COMENTARIOS -->
+  <div class="post">
+    <h2>🟣 Línea del tiempo del feminismo</h2>
+
+    <div class="timeline-item">
+      <span class="year">Siglo XVIII (1700s)</span>
+      <h3>🏛️ Origen y Pensamiento</h3>
+      <p>Inicio del pensamiento feminista en la Ilustración. Se cuestiona la desigualdad natural entre hombres y mujeres.</p>
+      <p><span class="highlight-purple">Persona importante:</span> Mary Wollstonecraft (Escribió sobre la igualdad en la educación).</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">Siglo XIX</span>
+      <h3>🗳️ Primera Ola: Derechos Civiles</h3>
+      <p>Lucha por el sufragio (voto) y el acceso a la propiedad.</p>
+      <p><span class="highlight-blue">Evento clave:</span> Convención de Seneca Falls (EE.UU.).</p>
+      <p><span class="highlight-purple">Personas importantes:</span> Elizabeth Cady Stanton y Susan B. Anthony.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1900 – 1950</span>
+      <h3>🌍 Siglo XX: Logros Iniciales</h3>
+      <p>Las mujeres empiezan a votar y trabajar formalmente. En <span class="highlight-blue">México</span>, se logra el voto femenino en 1953.</p>
+      <p><span class="highlight-purple">Persona importante:</span> Hermila Galindo.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1960 – 1980</span>
+      <h3>✊ Segunda Ola: Lo personal es político</h3>
+      <p>Lucha por la igualdad laboral, derechos reproductivos y educación superior.</p>
+      <p><span class="highlight-purple">Persona importante:</span> Simone de Beauvoir (Obra: <i>El segundo sexo</i>).</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1990 – 2010</span>
+      <h3>🌐 Tercera Ola: Diversidad</h3>
+      <p>Se enfoca en la interseccionalidad, la inclusión de diferentes razas, culturas e identidades.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">2010 – Actualidad</span>
+      <h3>📱 Cuarta Ola: Era Digital</h3>
+      <p>Uso de redes sociales contra la violencia de género, acoso y feminicidios.</p>
+      <p><span class="highlight-blue">Movimiento clave:</span> #MeToo.</p>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="post">
+      <h3>✅ Consecuencias Positivas</h3>
+      <ul>
+        <li>Derecho a votar 🗳️</li>
+        <li>Acceso a educación 🎓</li>
+        <li>Igualdad legal</li>
+        <li>Mayor participación laboral</li>
+        <li>Visibilización de la violencia</li>
+      </ul>
+    </div>
+
+    <div class="post">
+      <h3>⚠️ Desafíos Actuales</h3>
+      <ul>
+        <li>Aún existe desigualdad real</li>
+        <li>Violencia de género</li>
+        <li>Brecha salarial</li>
+        <li>Discriminación persistente</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="post">
+    <h3>📜 Leyes Importantes</h3>
+    <p>A lo largo de la historia, el movimiento ha impulsado marcos legales cruciales:</p>
+    <ul>
+      <li><strong>Derecho al voto femenino:</strong> La base de la ciudadanía.</li>
+      <li><strong>Leyes de igualdad laboral:</strong> Buscan el mismo salario por el mismo trabajo.</li>
+      <li><strong>Leyes contra la violencia de género:</strong> Protección integral a las víctimas.</li>
+      <li><strong>Derechos reproductivos:</strong> Autonomía sobre el propio cuerpo.</li>
+    </ul>
+  </div>
+
   <div id="disqus_thread"></div>
 
 </div>
 
 <footer>
-  Hecho por HiveSky 🐝
+  Hecho por HiveSky 🐝 - 2024<br>
+  "La igualdad es una necesidad vital del alma humana"
 </footer>
 
 <script>
@@ -105,7 +238,7 @@ this.page.identifier = "post1";
 
 (function() {
 var d = document, s = d.createElement('script');
-s.src = 'https://blogfeminismo.disqus.com/embed.js'; // TU SHORTNAME
+s.src = 'https://blogfeminismo.disqus.com/embed.js'; 
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
