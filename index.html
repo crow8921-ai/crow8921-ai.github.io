@@ -100,6 +100,39 @@
       gap: 20px;
     }
 
+    .video-box {
+      background: #0f172a;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px dashed #38bdf8;
+      margin-top: 20px;
+    }
+
+    .video-box a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .video-box a:hover {
+      text-decoration: underline;
+    }
+
+    .image-post-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .image-post-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
     @media (max-width: 600px) {
       .grid-container { grid-template-columns: 1fr; }
     }
@@ -114,24 +147,6 @@
 
     ul { padding-left: 20px; }
     li { margin-bottom: 8px; }
-
-    /* =========================================
-       NUEVOS ESTILOS PARA LA IMAGEN (AÑADIDO)
-       ========================================= */
-    .image-post-container {
-      width: 100%;
-      display: flex;
-      justify-content: center; /* Centrar horizontalmente */
-      align-items: center;    /* Centrar verticalmente si aplica */
-      margin-top: 20px;
-    }
-
-    .image-post-container img {
-      max-width: 100%; /* No desborda el ancho del blog */
-      height: auto;    /* Mantiene proporción */
-      border-radius: 8px; /* Bordes suaves */
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra suave */
-    }
   </style>
 </head>
 
@@ -166,48 +181,54 @@
       <span class="year">Siglo XVIII (1700s)</span>
       <h3>🏛️ Origen y Pensamiento</h3>
       <p>Inicio del pensamiento feminista en la Ilustración. Se cuestiona la desigualdad natural entre hombres y mujeres.</p>
-      <p><span class="highlight-purple">Persona importante:</span> Mary Wollstonecraft (Escribió sobre la igualdad en la educación).</p>
+      <p><span class="highlight-purple">Persona importante:</span> Mary Wollstonecraft.</p>
     </div>
 
     <div class="timeline-item">
       <span class="year">Siglo XIX</span>
       <h3>🗳️ Primera Ola: Derechos Civiles</h3>
-      <p>Lucha por el sufragio (voto) y el acceso a la propiedad.</p>
-      <p><span class="highlight-blue">Evento clave:</span> Convención de Seneca Falls (EE.UU.).</p>
-      <p><span class="highlight-purple">Personas importantes:</span> Elizabeth Cady Stanton y Susan B. Anthony.</p>
+      <p>Lucha por el sufragio y el acceso a la propiedad.</p>
+      <p><span class="highlight-blue">Evento clave:</span> Convención de Seneca Falls.</p>
     </div>
 
     <div class="timeline-item">
       <span class="year">1900 – 1950</span>
       <h3>🌍 Siglo XX: Logros Iniciales</h3>
-      <p>Las mujeres empiezan a votar y trabajar formalmente. En <span class="highlight-blue">México</span>, se logra el voto femenino en 1953.</p>
-      <p><span class="highlight-purple">Persona importante:</span> Hermila Galindo.</p>
-    </div>
-
-    <div class="timeline-item">
-      <span class="year">1960 – 1980</span>
-      <h3>✊ Segunda Ola: Lo personal es político</h3>
-      <p>Lucha por la igualdad laboral, derechos reproductivos y educación superior.</p>
-      <p><span class="highlight-purple">Persona importante:</span> Simone de Beauvoir (Obra: <i>El segundo sexo</i>).</p>
-    </div>
-
-    <div class="timeline-item">
-      <span class="year">1990 – 2010</span>
-      <h3>🌐 Tercera Ola: Diversidad</h3>
-      <p>Se enfoca en la interseccionalidad, la inclusión de diferentes rasas, culturas e identidades.</p>
+      <p>Las mujeres empiezan a votar y trabajar formalmente. En México, se logra el voto en 1953.</p>
     </div>
 
     <div class="timeline-item">
       <span class="year">2010 – Actualidad</span>
       <h3>📱 Cuarta Ola: Era Digital</h3>
-      <p>Uso de redes sociales contra la violencia de género, acoso y feminicidios.</p>
-      <p><span class="highlight-blue">Movimiento clave:</span> #MeToo.</p>
+      <p>Uso de redes sociales contra la violencia de género y el acoso (#MeToo).</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <h2>🤝 ¿Qué es la Igualdad de Género?</h2>
+    <p>
+      Es un principio constitucional que estipula que tanto hombres como mujeres son iguales ante la ley. 
+      Esto significa que todas las personas, sin distinción, deben gozar de los mismos derechos, recursos, 
+      oportunidades y protecciones ante el Estado y la sociedad.
+    </p>
+
+    <div class="intro-box">
+      <h3>🤔 Preguntas Detonadoras</h3>
+      <ul>
+        <li>¿Alguna vez has dejado de realizar una actividad por creer que "no es propia de tu género"?</li>
+        <li>¿Cómo crees que cambiaría nuestra comunidad si los roles en el hogar se repartieran de forma equitativa?</li>
+      </ul>
+    </div>
+
+    <div class="video-box">
+      <p>📺 El video de este enlace explicará mejor el tema:</p>
+      <a href="https://youtu.be/m7XPzvqRNCA" target="_blank">Ver video sobre Igualdad de Género</a>
     </div>
   </div>
 
   <div class="post">
     <h2>📊 Contexto Local: Estado de México</h2>
-    <p>A continuación, se presenta una tabla comparativa que analiza la situación actual del Estado de México en áreas clave:</p>
+    <p>A continuación, se presenta una tabla comparativa que analiza la situación actual del Estado de México:</p>
     
     <div class="image-post-container">
       <img src="tabla-de-genero.jpeg" alt="Tabla comparativa de fortalezas y debilidades del Estado de México">
@@ -239,12 +260,10 @@
 
   <div class="post">
     <h3>📜 Leyes Importantes</h3>
-    <p>A lo largo de la historia, el movimiento ha impulsado marcos legales cruciales:</p>
     <ul>
       <li><strong>Derecho al voto femenino:</strong> La base de la ciudadanía.</li>
       <li><strong>Leyes de igualdad laboral:</strong> Buscan el mismo salario por el mismo trabajo.</li>
       <li><strong>Leyes contra la violencia de género:</strong> Protección integral a las víctimas.</li>
-      <li><strong>Derechos reproductivos:</strong> Autonomía sobre el propio cuerpo.</li>
     </ul>
   </div>
 
